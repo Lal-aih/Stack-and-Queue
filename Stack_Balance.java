@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ass1_Q2{
+public class Stack_Balance{
     //Class to create and manage character stacks
     public class stackOfParentheses{ 
         char[] stackP; //Array to store stack elements
@@ -64,7 +64,7 @@ public class Ass1_Q2{
     }
 
     public static void main(String[] args) {
-        Ass1_Q2 balance = new Ass1_Q2(); //Instance of balance class
+        Stack_Balance balance = new Stack_Balance(); //Instance of balance class
         stackOfParentheses stack = balance.new stackOfParentheses(); //Instance of stackOfParentheses
         Scanner scanner = new Scanner(System.in); //Scanner class for user input
         
